@@ -1,0 +1,139 @@
+@media screen and (max-width:1365px){
+    .trip{
+        flex-direction: column;
+        height: max-content;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+    }
+    .foot{
+        width: 100%;
+        height: auto;
+    }
+    .container{
+        background-size: cover;
+        width: 100%;
+    }
+    .container .header .left ul ol {
+        padding: 20px 0 0 20px
+    }
+    .form-input{
+        padding: 0;
+    }
+    .foot .right1{
+        padding: 10vh 0vw;
+        padding: 8vh 0vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .stories .destinations .places img{
+        width: 16vw;
+    }
+    .foot .left1 .ln2 {
+        padding: 11px 23px;
+    }
+    .foot .left1{
+        margin: auto;
+    }
+}
+
+
+/* for iphones 6/7/8 */
+
+
+@media only screen 
+  /* and(max-width:375px) */
+  /* and (min-device-width: 375px)  */
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .container .header{
+        flex-direction: column;
+    }
+    .container .header .right{
+        margin: 20px 6px 0 0;
+    }
+    .container .main {
+        width: fit-content;
+        font-size: small;
+        margin: 44px;
+    }
+    .container .social{
+        display: flex;
+        margin: auto;
+    }
+    .intro img{
+        width: 100%;
+        height: auto;
+    }
+    .trip{
+        top: -35px;
+        block-size: auto;
+        align-items: center;
+    }
+    .utilites .ut {
+        margin: 0px 9px;
+    }
+    .stories .destinations {
+        display: flex;
+        flex-direction: column;
+    }
+    .stories .destinations .places img{
+        width: 16vw;
+    }
+    .stories .destinations .places {
+        padding: 10px 0px;
+    } 
+    .stories .destinations .places .lines{
+        text-align: center;
+        display: contents;
+    }
+    .stories .more{
+        left: 0;
+    }
+    .foot {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .right1 button{
+        width: max-content;
+        margin: -9px 187px;
+    }
+    .right1 input{
+        padding: 4px 37px;
+        text-align: center
+    }
+
+}
+
+
+/* iPhone 5, 5S, 5C and 5SE  */
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .container .header .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-input{
+        width: 40vw;
+    }
+    .utilites{
+        flex-direction: column;
+    }
+    .utilites .ut{
+       margin: 9px;
+    }
+    .stories .destinations .places{
+        padding: 5px 0px;
+    }
+    .stories .destinations .places img{
+        width: 40vw;
+    }
+
+}
