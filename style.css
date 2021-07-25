@@ -58,6 +58,7 @@ body{
     padding: 0 1vw;
     margin-right: 4px;
     opacity: 0.8;
+    text-align: center;
 }
 .btn{
     background-color: #bfa98f;
@@ -65,7 +66,6 @@ body{
     cursor: pointer;
     padding: 4px 5px;
     border: solid 1px black;
-    text-align: center;
 } 
 .btn:hover{
     background-color: black;
