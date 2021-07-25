@@ -17,7 +17,6 @@ body{
     overflow: hidden;
     background-size: cover;
 }
-
 .container .header {
     height: 73px;
     display: flex;
@@ -29,17 +28,14 @@ body{
     margin: 9px 20px;
     color: white;
 }
-
 .container .header .left ul {
     display: flex;
     margin-top: 4px;
 }
-
 .container .header .left ul ol{
     padding: 20px 0 0 76px;
     font-size: 14px;
     color: white;
-
 }
 .container .header .left ul ol a{
     text-decoration: none;
@@ -62,7 +58,6 @@ body{
     padding: 0 1vw;
     margin-right: 4px;
     opacity: 0.8;
-}
 }
 .btn{
     background-color: #bfa98f;
