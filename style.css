@@ -62,6 +62,8 @@ body{
     padding: 0 1vw;
     margin-right: 4px;
     opacity: 0.8;
+    text-align: center;
+}
 }
 .btn{
     background-color: #bfa98f;
@@ -345,6 +347,7 @@ body{
     width: 181px;
     margin: 17px 151px;;
     opacity: 0.8;
+    text-align: center;
 }
 .right1 button{
     margin: -9px 211px;
